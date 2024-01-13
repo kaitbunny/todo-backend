@@ -1,0 +1,18 @@
+o projeto ira conter a seguinte entidade
+
+to do:
+  id
+  titulo
+  texto
+  data de criacao
+  status
+
+deve ser possivel criar um novo to do, editar um to do, excluir e listar/mostrar
+
+endpoints:
+
+GET - todo-api/tarefas - dto only id, title, status e data
+GET - todo-api/tarefas/{id} - todos os campos
+POST - todo-api/tarefas - contém corpo json sem id
+PUT - todo-api/tarefas/{id} - contém corpo json com id na url
+DELETE - todo-api/tarefas/{id}
